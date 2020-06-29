@@ -158,7 +158,7 @@ form.addEventListener("submit", (e) => {
 
 // ON CHNAGE CHECK
 
-form.addEventListener("change", (e) => {
+form.addEventListener("keydown", (e) => {
 
 	if (e.target.id == "name" && name.value == "") {
 		name.className = "error";
