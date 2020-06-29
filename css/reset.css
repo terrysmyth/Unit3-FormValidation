@@ -1,0 +1,21 @@
+
+form input.error {
+	border: 1px red solid;
+	margin-bottom: 0;
+}
+
+form input + p {
+	display: none;
+	color: red;
+	margin: 0 0 10px;
+}
+
+form input.error + p {
+	display: block;
+}
+
+#listError  {
+	display: none;
+    color: red;
+    margin-top: 0;
+}
