@@ -194,7 +194,7 @@ function checkCheckBoxes() {
 function checkCard() {
 	let check = false;
 
-	const ccNumCheck = /^(\d{13,15})$/.test(ccNum.value);
+	const ccNumCheck = /^(\d{13,16})$/.test(ccNum.value);
 	const zipCheck = /^(\d{5})$/.test(zip.value);
 	const cvvCheck = /^(\d{3})$/.test(cvv.value);
 
